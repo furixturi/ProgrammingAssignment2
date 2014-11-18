@@ -1,0 +1,16 @@
+{
+    "contents" : "########################################################### \n# Matrix inversion is usually a costly computation.       #\n# Here are a pair of functions that cache the inverse     #\n# of a matrix so we don't need to compute it repeatedly.  #\n########################################################### \n\n## makeCacheMatrix\n#   This function creates a special \"matrix\" object that \n#   can cache its inverse.\n### Arguments\n# x     a square numeric or complex matrix containing the \n#       coefficients of the linear system. Logical matrices \n#       are coerced to numeric. Default value is a 1x1 matrix\n#       of value NA.\n\nmakeCacheMatrix <- function(x = matrix()) {\n\n}\n\n\n## cacheSolve\n#   This function computes the inverse of the special \"matrix\"\n#   returned by makeCacheMatrix above. If the inverse has \n#   already been calculated (and the matrix has not changed), \n#   then the cachesolve should retrieve the inverse from the cache.\n### Arguments\n# x     a special \"matrix\" returned by makeCacheMatrix.\n# ...   further arguments that will be passed to the \"solve\" \n#       function used internally to compute the inverse of x.\n\ncacheSolve <- function(x, ...) {\n        ## Return a matrix that is the inverse of 'x'\n}\n",
+    "created" : 1416339127511.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3743892970",
+    "id" : "6437B2B3",
+    "lastKnownWriteTime" : 1416340129,
+    "path" : "/project/coursera-r/week_3/ProgrammingAssignment2/cachematrix.R",
+    "project_path" : "cachematrix.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
